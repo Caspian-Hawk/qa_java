@@ -21,14 +21,12 @@ public class FelineTest {
     @Test
     public void checkEatMeatFeline() throws Exception {
         List<String> expectedFood = List.of("Животные", "Птицы", "Рыба");
-        when(animal.getFood("Хищник")).thenReturn(expectedFood);
-        assertEquals(expectedFood, animal.getFood("Хищник"));
+        assertEquals(expectedFood, feline.eatMeat());
     }
 
     @Test
     public void checkGetFamilyFeline() {
-        when(animal.getFamily()).thenReturn("Кошачьи");
-        assertEquals("Кошачьи", animal.getFamily());
+        assertEquals("Кошачьи", feline.getFamily());
     }
 
     @Test
