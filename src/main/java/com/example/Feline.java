@@ -2,6 +2,7 @@ package com.example;
 
 import java.util.List;
 
+// Семейство Кошачьи
 public class Feline extends Animal implements Predator {
 
     @Override
@@ -21,5 +22,4 @@ public class Feline extends Animal implements Predator {
     public int getKittens(int kittensCount) {
         return kittensCount;
     }
-
 }
