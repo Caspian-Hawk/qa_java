@@ -20,7 +20,7 @@ public class LionTest {
         feline = Mockito.mock(Feline.class); // инициализация мока
         lion = new Lion("Самец", feline); // инициализация объекта Lion с правильными параметрами
     }
-
+// исключение
     @Test(expected = Exception.class)
     public void checkInvalidSex() throws Exception {
         new Lion("Оно", feline);

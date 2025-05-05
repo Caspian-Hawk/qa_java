@@ -12,9 +12,6 @@ import static org.junit.Assert.*;
 @RunWith(MockitoJUnitRunner.class)
 public class FelineTest {
 
-    @Mock
-    private Animal animal;
-
     Feline feline = new Feline();
 
     @Test

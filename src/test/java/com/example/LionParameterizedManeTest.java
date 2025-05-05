@@ -10,7 +10,7 @@ import org.mockito.MockitoAnnotations;
 import static org.junit.Assert.*;
 
 @RunWith(Parameterized.class)
-public class LionParameterizedTest {
+public class LionParameterizedManeTest {
 
     @Mock
     private Feline feline;
@@ -19,7 +19,7 @@ public class LionParameterizedTest {
     private final String sex;
     private final boolean hasMane;
 
-    public LionParameterizedTest(String sex, boolean hasMane) {
+    public LionParameterizedManeTest(String sex, boolean hasMane) {
         this.sex = sex;
         this.hasMane = hasMane;
     }
